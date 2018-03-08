@@ -7,14 +7,95 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F40AD39F20478C4500655CD6 /* TableMarkets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AD39E20478C4500655CD6 /* TableMarkets.swift */; };
+		F427AAAD204F4E7900C811A3 /* JSUExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F427AA9D204F4E7900C811A3 /* JSUExtension.swift */; };
+		F427AAAE204F4E7900C811A3 /* KLineDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F427AA9F204F4E7900C811A3 /* KLineDataSet.swift */; };
+		F427AAAF204F4E7900C811A3 /* KLineEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F427AAA0204F4E7900C811A3 /* KLineEntity.swift */; };
+		F427AAB0204F4E7900C811A3 /* KLineStockChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F427AAA1204F4E7900C811A3 /* KLineStockChartView.swift */; };
+		F427AAB1204F4E7900C811A3 /* KLineStockChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F427AAA2204F4E7900C811A3 /* KLineStockChartViewBase.swift */; };
+		F427AAB2204F4E7900C811A3 /* ChartLineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F427AAA4204F4E7900C811A3 /* ChartLineModel.swift */; };
+		F427AAB3204F4E7900C811A3 /* JSUPriceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F427AAA5204F4E7900C811A3 /* JSUPriceModel.swift */; };
+		F427AAB4204F4E7900C811A3 /* JSUStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F427AAA6204F4E7900C811A3 /* JSUStateModel.swift */; };
+		F427AAB5204F4E7900C811A3 /* JSUTradeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F427AAA7204F4E7900C811A3 /* JSUTradeModel.swift */; };
+		F427AAB6204F4E7900C811A3 /* StockChartBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F427AAA8204F4E7900C811A3 /* StockChartBase.swift */; };
+		F427AAB7204F4E7900C811A3 /* StockChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F427AAA9204F4E7900C811A3 /* StockChartView.swift */; };
+		F427AAB8204F4E7900C811A3 /* TimeDataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = F427AAAA204F4E7900C811A3 /* TimeDataset.swift */; };
+		F427AAB9204F4E7900C811A3 /* TimeLineEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F427AAAB204F4E7900C811A3 /* TimeLineEntity.swift */; };
+		F427AABA204F4E7900C811A3 /* TimeLineStockChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F427AAAC204F4E7900C811A3 /* TimeLineStockChartView.swift */; };
+		F42AB86C20476E9B001AAD8A /* WebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42AB86B20476E9B001AAD8A /* WebController.swift */; };
+		F43F5E22204A3E2C000875C2 /* SquaredButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F5E21204A3E2C000875C2 /* SquaredButton.swift */; };
+		F43F5E29204A4DC2000875C2 /* TableOffersBids.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F5E28204A4DC2000875C2 /* TableOffersBids.swift */; };
+		F43F5E2B204A4F23000875C2 /* TableOffersAsks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F5E2A204A4F23000875C2 /* TableOffersAsks.swift */; };
+		F44A77B7204B61D400C7ECE0 /* Candlestick.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A77B6204B61D400C7ECE0 /* Candlestick.swift */; };
+		F44A77BE204B62C300C7ECE0 /* TableChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A77BD204B62C300C7ECE0 /* TableChart.swift */; };
+		F493227E204B8413005B8EE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F493227D204B8413005B8EE4 /* ViewController.swift */; };
+		F49E3A81204F785D006C5729 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49E3A80204F785D006C5729 /* Keychain.swift */; };
+		F4CBA38D2050607E00001200 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CBA38C2050607E00001200 /* CryptoSwift.framework */; };
+		F4CBA38E2050607E00001200 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F4CBA38C2050607E00001200 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F4CD31C920478E3000F2CDA3 /* StellarSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40AD3AE20478D1000655CD6 /* StellarSDK.framework */; };
+		F4CD31CA20478E3000F2CDA3 /* StellarSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F40AD3AE20478D1000655CD6 /* StellarSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F4CD31CF20478F3900F2CDA3 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD31CE20478F3900F2CDA3 /* Storage.swift */; };
+		F4FB3259204ACAD4009983EC /* TableTrades.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB3258204ACAD4009983EC /* TableTrades.swift */; };
+		F4FB325B204ACBF7009983EC /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB325A204ACBF7009983EC /* Types.swift */; };
+		F4FB325D204ADEFA009983EC /* TableOffers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB325C204ADEFA009983EC /* TableOffers.swift */; };
 		F4FF611D20471A2300E61462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF611C20471A2300E61462 /* AppDelegate.swift */; };
-		F4FF611F20471A2300E61462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF611E20471A2300E61462 /* ViewController.swift */; };
 		F4FF612120471A2300E61462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4FF612020471A2300E61462 /* Assets.xcassets */; };
 		F4FF612420471A2400E61462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FF612220471A2400E61462 /* Main.storyboard */; };
 		F4FF612F20471A2400E61462 /* GaltExTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF612E20471A2400E61462 /* GaltExTests.swift */; };
+		F4FF613D2047255800E61462 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF613C2047255800E61462 /* Theme.swift */; };
+		F4FF613F204727F600E61462 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF613E204727F600E61462 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		F40AD3AD20478D1000655CD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40AD3A420478D1000655CD6 /* StellarSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F41A86722017A448008E73ED;
+			remoteInfo = StellarSDK;
+		};
+		F40AD3AF20478D1000655CD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40AD3A420478D1000655CD6 /* StellarSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F46E790D2034898C003A6474;
+			remoteInfo = StellarSDKios;
+		};
+		F40AD3B120478D1000655CD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40AD3A420478D1000655CD6 /* StellarSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F479BEBC2034DFB200C61595;
+			remoteInfo = StellarSDKmacos;
+		};
+		F40AD3B320478D1000655CD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40AD3A420478D1000655CD6 /* StellarSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F479BEAF2034DF3700C61595;
+			remoteInfo = StellarSDKtvos;
+		};
+		F40AD3B520478D1000655CD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40AD3A420478D1000655CD6 /* StellarSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F479BEA22034DF2200C61595;
+			remoteInfo = StellarSDKwatchos;
+		};
+		F40AD3B720478D1000655CD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40AD3A420478D1000655CD6 /* StellarSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F41A867B2017A448008E73ED;
+			remoteInfo = StellarSDKTests;
+		};
+		F4CD31CB20478E3000F2CDA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40AD3A420478D1000655CD6 /* StellarSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F41A86712017A448008E73ED;
+			remoteInfo = StellarSDK;
+		};
 		F4FF612B20471A2400E61462 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F4FF611120471A2300E61462 /* Project object */;
@@ -24,16 +105,63 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F4CD31CD20478E3000F2CDA3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F4CD31CA20478E3000F2CDA3 /* StellarSDK.framework in Embed Frameworks */,
+				F4CBA38E2050607E00001200 /* CryptoSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F40AD39E20478C4500655CD6 /* TableMarkets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableMarkets.swift; sourceTree = "<group>"; };
+		F40AD3A420478D1000655CD6 /* StellarSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StellarSDK.xcodeproj; path = ../../../StellarSDK/StellarSDK.xcodeproj; sourceTree = "<group>"; };
+		F427AA9D204F4E7900C811A3 /* JSUExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSUExtension.swift; sourceTree = "<group>"; };
+		F427AA9E204F4E7900C811A3 /* JSUStockChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSUStockChart.h; sourceTree = "<group>"; };
+		F427AA9F204F4E7900C811A3 /* KLineDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineDataSet.swift; sourceTree = "<group>"; };
+		F427AAA0204F4E7900C811A3 /* KLineEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineEntity.swift; sourceTree = "<group>"; };
+		F427AAA1204F4E7900C811A3 /* KLineStockChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineStockChartView.swift; sourceTree = "<group>"; };
+		F427AAA2204F4E7900C811A3 /* KLineStockChartViewBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineStockChartViewBase.swift; sourceTree = "<group>"; };
+		F427AAA4204F4E7900C811A3 /* ChartLineModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartLineModel.swift; sourceTree = "<group>"; };
+		F427AAA5204F4E7900C811A3 /* JSUPriceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSUPriceModel.swift; sourceTree = "<group>"; };
+		F427AAA6204F4E7900C811A3 /* JSUStateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSUStateModel.swift; sourceTree = "<group>"; };
+		F427AAA7204F4E7900C811A3 /* JSUTradeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSUTradeModel.swift; sourceTree = "<group>"; };
+		F427AAA8204F4E7900C811A3 /* StockChartBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockChartBase.swift; sourceTree = "<group>"; };
+		F427AAA9204F4E7900C811A3 /* StockChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockChartView.swift; sourceTree = "<group>"; };
+		F427AAAA204F4E7900C811A3 /* TimeDataset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeDataset.swift; sourceTree = "<group>"; };
+		F427AAAB204F4E7900C811A3 /* TimeLineEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineEntity.swift; sourceTree = "<group>"; };
+		F427AAAC204F4E7900C811A3 /* TimeLineStockChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineStockChartView.swift; sourceTree = "<group>"; };
+		F42AB86B20476E9B001AAD8A /* WebController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebController.swift; sourceTree = "<group>"; };
+		F43F5E21204A3E2C000875C2 /* SquaredButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquaredButton.swift; sourceTree = "<group>"; };
+		F43F5E28204A4DC2000875C2 /* TableOffersBids.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableOffersBids.swift; sourceTree = "<group>"; };
+		F43F5E2A204A4F23000875C2 /* TableOffersAsks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableOffersAsks.swift; sourceTree = "<group>"; };
+		F44A77B6204B61D400C7ECE0 /* Candlestick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candlestick.swift; sourceTree = "<group>"; };
+		F44A77BD204B62C300C7ECE0 /* TableChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableChart.swift; sourceTree = "<group>"; };
+		F493227D204B8413005B8EE4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F49E3A80204F785D006C5729 /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		F4CBA38C2050607E00001200 /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CD31CE20478F3900F2CDA3 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		F4FB3252204ABF7D009983EC /* ToDo.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ToDo.txt; sourceTree = "<group>"; };
+		F4FB3258204ACAD4009983EC /* TableTrades.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableTrades.swift; sourceTree = "<group>"; };
+		F4FB325A204ACBF7009983EC /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		F4FB325C204ADEFA009983EC /* TableOffers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableOffers.swift; sourceTree = "<group>"; };
 		F4FF611920471A2300E61462 /* GaltEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaltEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FF611C20471A2300E61462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4FF611E20471A2300E61462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F4FF612020471A2300E61462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4FF612320471A2400E61462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4FF612520471A2400E61462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4FF612A20471A2400E61462 /* GaltExTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaltExTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FF612E20471A2400E61462 /* GaltExTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaltExTests.swift; sourceTree = "<group>"; };
 		F4FF613020471A2400E61462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4FF613C2047255800E61462 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F4FF613E204727F600E61462 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +169,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4CD31C920478E3000F2CDA3 /* StellarSDK.framework in Frameworks */,
+				F4CBA38D2050607E00001200 /* CryptoSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,11 +184,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F40AD39D20478C3200655CD6 /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				F44A77BD204B62C300C7ECE0 /* TableChart.swift */,
+				F40AD39E20478C4500655CD6 /* TableMarkets.swift */,
+				F4FB325C204ADEFA009983EC /* TableOffers.swift */,
+				F43F5E28204A4DC2000875C2 /* TableOffersBids.swift */,
+				F43F5E2A204A4F23000875C2 /* TableOffersAsks.swift */,
+				F4FB3258204ACAD4009983EC /* TableTrades.swift */,
+			);
+			path = Tables;
+			sourceTree = "<group>";
+		};
+		F40AD3A320478CF900655CD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4CBA38C2050607E00001200 /* CryptoSwift.framework */,
+				F40AD3A420478D1000655CD6 /* StellarSDK.xcodeproj */,
+			);
+			name = Frameworks;
+			path = GaltEx/Frameworks;
+			sourceTree = "<group>";
+		};
+		F40AD3A520478D1000655CD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F40AD3AE20478D1000655CD6 /* StellarSDK.framework */,
+				F40AD3B020478D1000655CD6 /* StellarSDK.framework */,
+				F40AD3B220478D1000655CD6 /* StellarSDK.framework */,
+				F40AD3B420478D1000655CD6 /* StellarSDK.framework */,
+				F40AD3B620478D1000655CD6 /* StellarSDK.framework */,
+				F40AD3B820478D1000655CD6 /* StellarSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F427AA9C204F4E7900C811A3 /* StockChart */ = {
+			isa = PBXGroup;
+			children = (
+				F427AAA3204F4E7900C811A3 /* Models */,
+				F427AA9E204F4E7900C811A3 /* JSUStockChart.h */,
+				F427AA9D204F4E7900C811A3 /* JSUExtension.swift */,
+				F427AA9F204F4E7900C811A3 /* KLineDataSet.swift */,
+				F427AAA0204F4E7900C811A3 /* KLineEntity.swift */,
+				F427AAA1204F4E7900C811A3 /* KLineStockChartView.swift */,
+				F427AAA2204F4E7900C811A3 /* KLineStockChartViewBase.swift */,
+				F427AAA8204F4E7900C811A3 /* StockChartBase.swift */,
+				F427AAA9204F4E7900C811A3 /* StockChartView.swift */,
+				F427AAAA204F4E7900C811A3 /* TimeDataset.swift */,
+				F427AAAB204F4E7900C811A3 /* TimeLineEntity.swift */,
+				F427AAAC204F4E7900C811A3 /* TimeLineStockChartView.swift */,
+			);
+			path = StockChart;
+			sourceTree = "<group>";
+		};
+		F427AAA3204F4E7900C811A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F427AAA4204F4E7900C811A3 /* ChartLineModel.swift */,
+				F427AAA5204F4E7900C811A3 /* JSUPriceModel.swift */,
+				F427AAA6204F4E7900C811A3 /* JSUStateModel.swift */,
+				F427AAA7204F4E7900C811A3 /* JSUTradeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		F4FF611020471A2300E61462 = {
 			isa = PBXGroup;
 			children = (
+				F4FB3252204ABF7D009983EC /* ToDo.txt */,
 				F4FF611B20471A2300E61462 /* GaltEx */,
 				F4FF612D20471A2400E61462 /* GaltExTests */,
+				F40AD3A320478CF900655CD6 /* Frameworks */,
 				F4FF611A20471A2300E61462 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,11 +273,15 @@
 		F4FF611B20471A2300E61462 /* GaltEx */ = {
 			isa = PBXGroup;
 			children = (
-				F4FF611C20471A2300E61462 /* AppDelegate.swift */,
-				F4FF611E20471A2300E61462 /* ViewController.swift */,
-				F4FF612020471A2300E61462 /* Assets.xcassets */,
-				F4FF612220471A2400E61462 /* Main.storyboard */,
 				F4FF612520471A2400E61462 /* Info.plist */,
+				F4FF611C20471A2300E61462 /* AppDelegate.swift */,
+				F493227D204B8413005B8EE4 /* ViewController.swift */,
+				F42AB86B20476E9B001AAD8A /* WebController.swift */,
+				F427AA9C204F4E7900C811A3 /* StockChart */,
+				F40AD39D20478C3200655CD6 /* Tables */,
+				F4FF6139204724F800E61462 /* Utils */,
+				F4FF612220471A2400E61462 /* Main.storyboard */,
+				F4FF612020471A2300E61462 /* Assets.xcassets */,
 			);
 			path = GaltEx;
 			sourceTree = "<group>";
@@ -93,6 +295,20 @@
 			path = GaltExTests;
 			sourceTree = "<group>";
 		};
+		F4FF6139204724F800E61462 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F44A77B6204B61D400C7ECE0 /* Candlestick.swift */,
+				F49E3A80204F785D006C5729 /* Keychain.swift */,
+				F43F5E21204A3E2C000875C2 /* SquaredButton.swift */,
+				F4CD31CE20478F3900F2CDA3 /* Storage.swift */,
+				F4FF613C2047255800E61462 /* Theme.swift */,
+				F4FB325A204ACBF7009983EC /* Types.swift */,
+				F4FF613E204727F600E61462 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,10 +319,12 @@
 				F4FF611520471A2300E61462 /* Sources */,
 				F4FF611620471A2300E61462 /* Frameworks */,
 				F4FF611720471A2300E61462 /* Resources */,
+				F4CD31CD20478E3000F2CDA3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F4CD31CC20478E3000F2CDA3 /* PBXTargetDependency */,
 			);
 			name = GaltEx;
 			productName = GaltEx;
@@ -165,6 +383,12 @@
 			mainGroup = F4FF611020471A2300E61462;
 			productRefGroup = F4FF611A20471A2300E61462 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F40AD3A520478D1000655CD6 /* Products */;
+					ProjectRef = F40AD3A420478D1000655CD6 /* StellarSDK.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F4FF611820471A2300E61462 /* GaltEx */,
@@ -172,6 +396,51 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F40AD3AE20478D1000655CD6 /* StellarSDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = StellarSDK.framework;
+			remoteRef = F40AD3AD20478D1000655CD6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F40AD3B020478D1000655CD6 /* StellarSDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = StellarSDK.framework;
+			remoteRef = F40AD3AF20478D1000655CD6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F40AD3B220478D1000655CD6 /* StellarSDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = StellarSDK.framework;
+			remoteRef = F40AD3B120478D1000655CD6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F40AD3B420478D1000655CD6 /* StellarSDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = StellarSDK.framework;
+			remoteRef = F40AD3B320478D1000655CD6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F40AD3B620478D1000655CD6 /* StellarSDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = StellarSDK.framework;
+			remoteRef = F40AD3B520478D1000655CD6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F40AD3B820478D1000655CD6 /* StellarSDKTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = StellarSDKTests.xctest;
+			remoteRef = F40AD3B720478D1000655CD6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F4FF611720471A2300E61462 /* Resources */ = {
@@ -197,8 +466,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4FF611F20471A2300E61462 /* ViewController.swift in Sources */,
+				F493227E204B8413005B8EE4 /* ViewController.swift in Sources */,
+				F44A77B7204B61D400C7ECE0 /* Candlestick.swift in Sources */,
+				F4CD31CF20478F3900F2CDA3 /* Storage.swift in Sources */,
+				F427AAB9204F4E7900C811A3 /* TimeLineEntity.swift in Sources */,
+				F427AAB1204F4E7900C811A3 /* KLineStockChartViewBase.swift in Sources */,
+				F4FF613D2047255800E61462 /* Theme.swift in Sources */,
+				F427AAAE204F4E7900C811A3 /* KLineDataSet.swift in Sources */,
+				F4FB325B204ACBF7009983EC /* Types.swift in Sources */,
+				F40AD39F20478C4500655CD6 /* TableMarkets.swift in Sources */,
+				F427AAB6204F4E7900C811A3 /* StockChartBase.swift in Sources */,
+				F427AAB0204F4E7900C811A3 /* KLineStockChartView.swift in Sources */,
+				F427AAB5204F4E7900C811A3 /* JSUTradeModel.swift in Sources */,
+				F42AB86C20476E9B001AAD8A /* WebController.swift in Sources */,
+				F4FB325D204ADEFA009983EC /* TableOffers.swift in Sources */,
+				F43F5E29204A4DC2000875C2 /* TableOffersBids.swift in Sources */,
+				F4FB3259204ACAD4009983EC /* TableTrades.swift in Sources */,
+				F427AAB2204F4E7900C811A3 /* ChartLineModel.swift in Sources */,
+				F427AABA204F4E7900C811A3 /* TimeLineStockChartView.swift in Sources */,
 				F4FF611D20471A2300E61462 /* AppDelegate.swift in Sources */,
+				F44A77BE204B62C300C7ECE0 /* TableChart.swift in Sources */,
+				F427AAB8204F4E7900C811A3 /* TimeDataset.swift in Sources */,
+				F427AAAD204F4E7900C811A3 /* JSUExtension.swift in Sources */,
+				F4FF613F204727F600E61462 /* Utils.swift in Sources */,
+				F427AAB7204F4E7900C811A3 /* StockChartView.swift in Sources */,
+				F427AAB3204F4E7900C811A3 /* JSUPriceModel.swift in Sources */,
+				F43F5E22204A3E2C000875C2 /* SquaredButton.swift in Sources */,
+				F427AAAF204F4E7900C811A3 /* KLineEntity.swift in Sources */,
+				F427AAB4204F4E7900C811A3 /* JSUStateModel.swift in Sources */,
+				F43F5E2B204A4F23000875C2 /* TableOffersAsks.swift in Sources */,
+				F49E3A81204F785D006C5729 /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +510,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F4CD31CC20478E3000F2CDA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StellarSDK;
+			targetProxy = F4CD31CB20478E3000F2CDA3 /* PBXContainerItemProxy */;
+		};
 		F4FF612C20471A2400E61462 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F4FF611820471A2300E61462 /* GaltEx */;
@@ -327,11 +629,13 @@
 		F4FF613420471A2400E61462 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = W7PMV9XFGM;
 				INFOPLIST_FILE = GaltEx/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = GaltBank.GaltEx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -341,11 +645,13 @@
 		F4FF613520471A2400E61462 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = W7PMV9XFGM;
 				INFOPLIST_FILE = GaltEx/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = GaltBank.GaltEx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -403,6 +709,7 @@
 				F4FF613520471A2400E61462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4FF613620471A2400E61462 /* Build configuration list for PBXNativeTarget "GaltExTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +718,7 @@
 				F4FF613820471A2400E61462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

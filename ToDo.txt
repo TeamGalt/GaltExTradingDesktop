@@ -1,0 +1,35 @@
+TODO:
+
+- Galt price
+- Work on MyOffers tab
+- If state.account then load myOffers
+- Chart - cache results
+- Dim decs in tables
+
+
+DONE:
+
+x Change key icon
+x Use first ten chars of key in keychain
+x Remove chart lines starting from x axis
+x Trap errors when buying/selling
+x Buy/sell if not readonly
+x Verify market struct is updated on coin table change
+x Chart
+x Indices
+x On app load, get public key from userdefaults then secret key from keychain
+x Account login public/secret, save key in keychain
+x Appicon gold on black
+x Calc form values on change
+x Show prices in forms
+x On market select, update tables and forms
+x Monospaced numbers in tables
+x Fix totals in orderbook
+x Trade history
+x Orderbook
+x Markets table
+
+
+VERSION 2.0:
+
+- Streaming
