@@ -29,4 +29,6 @@ In Code We Trust
 
 ## License
 
-Take all you can, leave nothing behind.
+LLX - Libertarian License Xtended
+
+Take all you can, leave nothing behind
