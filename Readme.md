@@ -24,8 +24,8 @@ In Code We Trust
 
 **GaltEx** uses the following external libraries:
 
-- StellarSDK in Swift by Kuyawa
-- JSUStockCharts by 苏小超
+- [StellarSDK](https://github.com/kuyawa/StellarSDK) in Swift by Kuyawa
+- [JSUStockCharts](https://github.com/BestSwift/JSUStockChat) by 苏小超
 
 ## License
 
