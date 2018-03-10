@@ -9,7 +9,7 @@ It will allow you to trade in four different markets:
 - Wall St. listing the top hundred stocks from Dow Jones and Nasdaq
 - Galt St. listing all assets created by startups on the Stellar Network
 
-![Screenshot](./media/galtex.jpg)
+![Screenshot](./media/galtexdesk.jpg)
 
 In order to use **GaltEx Trading Desktop** all you need to have is a Stellar account. You will be able to buy and sell assets from your own computer without having to share your secret keys with the web. You can also login with your public key in read only mode to track your orders. Keys are stored on the Keychain and never transmitted anywhere. We advise you to never share your secret keys in websites or apps you don't trust.
 
@@ -19,3 +19,10 @@ In order to use **GaltEx Trading Desktop** all you need to have is a Stellar acc
 [https://galtbank.com/galtex](https://galtbank.com/galtex)
 
 In Code We Trust
+
+## Credits
+
+**GaltEx** uses the following external libraries:
+
+- StellarSDK in Swift by Kuyawa
+- JSUStockCharts by ?
