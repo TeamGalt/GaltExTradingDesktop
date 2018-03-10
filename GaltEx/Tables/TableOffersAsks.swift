@@ -40,21 +40,6 @@ class TableOffersAsks: NSObject, NSTableViewDataSource, NSTableViewDelegate {
         }
     }
 
-    /*
-    func loadData(_ asks: [Dixy]) {
-        list = [TableAsksRow]()
-        var total: Double = 0.0
-        for dixy in asks {
-            let price  = Double(dixy["price"]  as? String ?? "0.0") ?? 0.0
-            let amount = Double(dixy["amount"] as? String ?? "0.0") ?? 0.0
-            total += amount
-            list.append(TableAsksRow(price: price, amount: amount, total: total))
-        }
-        
-        tableView?.reloadData()
-    }
-    */
-
     func numberOfRows(in tableView: NSTableView) -> Int {
         return list.count
     }
@@ -68,8 +53,8 @@ class TableOffersAsks: NSObject, NSTableViewDataSource, NSTableViewDelegate {
         var text = ""
         
         switch cellId {
-        case "textTotal"  : text = item.total.money; break
-        case "textAmount" : text = item.amount.money; break
+        case "textTotal"  : text = item.total.toMoney(2); break
+        case "textAmount" : text = item.amount.toMoney(2); break
         case "textPrice"  : text = item.price.money; break
         default           : text = "?"
         }
@@ -108,3 +93,5 @@ class TableOffersAsks: NSObject, NSTableViewDataSource, NSTableViewDelegate {
 
 
 }
+
+// END

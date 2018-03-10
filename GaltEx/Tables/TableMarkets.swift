@@ -40,6 +40,7 @@ class TableMarkets: NSObject, NSTableViewDataSource, NSTableViewDelegate {
     var list: [TableMarketsRow] = [TableMarketsRow]()
     var selected = 0
     var address  = ""
+    var xlmPrice = 0.0
     
     func assignTableView(_ tableView: NSTableView) {
         self.tableView = tableView
@@ -92,7 +93,7 @@ class TableMarkets: NSObject, NSTableViewDataSource, NSTableViewDelegate {
                 close     : close,
                 inactive  : inactive
             )
-            
+            if symbol == "USD" { self.xlmPrice = priceXlm }
             list.append(item)
         }
         list.sort(by: { $1.symbol > $0.symbol })

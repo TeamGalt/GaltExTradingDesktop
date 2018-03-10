@@ -40,21 +40,6 @@ class TableOffersBids: NSObject, NSTableViewDataSource, NSTableViewDelegate {
         }
     }
     
-    /*
-    func loadData(_ bids: [Dixy]) {
-        list = [TableBidsRow]()
-        var total: Double = 0.0
-        for dixy in bids {
-            let price  = Double(dixy["price"]  as? String ?? "0.0") ?? 0.0
-            let amount = Double(dixy["amount"] as? String ?? "0.0") ?? 0.0
-            total += amount
-            list.append(TableBidsRow(price: price, amount: amount, total: total))
-        }
-        
-        tableView?.reloadData()
-    }
-    */
-    
     func numberOfRows(in tableView: NSTableView) -> Int {
         return list.count
     }
@@ -68,18 +53,16 @@ class TableOffersBids: NSObject, NSTableViewDataSource, NSTableViewDelegate {
         var text = ""
         
         switch cellId {
-        case "textTotal"  : text = item.total.money; break
-        case "textAmount" : text = item.amount.money; break
+        case "textTotal"  : text = item.total.toMoney(2); break
+        case "textAmount" : text = item.amount.toMoney(2); break
         case "textPrice"  : text = item.price.money; break
         default           : text = "?"
         }
-        
         
         if let cell = tableView.make(withIdentifier: cellId, owner: self) as? NSTableCellView {
             cell.textField?.stringValue = text
             cell.textField?.font = Theme.font.monodigits
             
-
             if cellId == "textPrice" {
                 cell.textField?.textColor = Theme.color.goUp
             }
@@ -106,6 +89,7 @@ class TableOffersBids: NSObject, NSTableViewDataSource, NSTableViewDelegate {
     func tableView(_ tableView: NSTableView, rowViewForRow row: Int) -> NSTableRowView? {
         return GreyRowView()
     }
-
-
+    
 }
+
+// END

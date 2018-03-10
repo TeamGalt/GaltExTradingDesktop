@@ -11,8 +11,7 @@ import Foundation
 
 class TableChart {
     
-    //var list: [Candlestick.Ticker] = []
-    var list = ChartLineData()
+    var list = ChartLineData() // StockChart
 
     /*
     struct ChartRow {

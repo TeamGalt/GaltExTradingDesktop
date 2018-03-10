@@ -26,8 +26,9 @@
 		F43F5E22204A3E2C000875C2 /* SquaredButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F5E21204A3E2C000875C2 /* SquaredButton.swift */; };
 		F43F5E29204A4DC2000875C2 /* TableOffersBids.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F5E28204A4DC2000875C2 /* TableOffersBids.swift */; };
 		F43F5E2B204A4F23000875C2 /* TableOffersAsks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F5E2A204A4F23000875C2 /* TableOffersAsks.swift */; };
-		F44A77B7204B61D400C7ECE0 /* Candlestick.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A77B6204B61D400C7ECE0 /* Candlestick.swift */; };
 		F44A77BE204B62C300C7ECE0 /* TableChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A77BD204B62C300C7ECE0 /* TableChart.swift */; };
+		F461ED8020533C4900519301 /* TextClick.swift in Sources */ = {isa = PBXBuildFile; fileRef = F461ED7F20533C4900519301 /* TextClick.swift */; };
+		F461ED872053474200519301 /* TableMyOffers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F461ED862053474200519301 /* TableMyOffers.swift */; };
 		F493227E204B8413005B8EE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F493227D204B8413005B8EE4 /* ViewController.swift */; };
 		F49E3A81204F785D006C5729 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49E3A80204F785D006C5729 /* Keychain.swift */; };
 		F4CBA38D2050607E00001200 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CBA38C2050607E00001200 /* CryptoSwift.framework */; };
@@ -142,8 +143,9 @@
 		F43F5E21204A3E2C000875C2 /* SquaredButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquaredButton.swift; sourceTree = "<group>"; };
 		F43F5E28204A4DC2000875C2 /* TableOffersBids.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableOffersBids.swift; sourceTree = "<group>"; };
 		F43F5E2A204A4F23000875C2 /* TableOffersAsks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableOffersAsks.swift; sourceTree = "<group>"; };
-		F44A77B6204B61D400C7ECE0 /* Candlestick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candlestick.swift; sourceTree = "<group>"; };
 		F44A77BD204B62C300C7ECE0 /* TableChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableChart.swift; sourceTree = "<group>"; };
+		F461ED7F20533C4900519301 /* TextClick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextClick.swift; sourceTree = "<group>"; };
+		F461ED862053474200519301 /* TableMyOffers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableMyOffers.swift; sourceTree = "<group>"; };
 		F493227D204B8413005B8EE4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F49E3A80204F785D006C5729 /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
 		F4CBA38C2050607E00001200 /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -189,6 +191,7 @@
 			children = (
 				F44A77BD204B62C300C7ECE0 /* TableChart.swift */,
 				F40AD39E20478C4500655CD6 /* TableMarkets.swift */,
+				F461ED862053474200519301 /* TableMyOffers.swift */,
 				F4FB325C204ADEFA009983EC /* TableOffers.swift */,
 				F43F5E28204A4DC2000875C2 /* TableOffersBids.swift */,
 				F43F5E2A204A4F23000875C2 /* TableOffersAsks.swift */,
@@ -298,10 +301,10 @@
 		F4FF6139204724F800E61462 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				F44A77B6204B61D400C7ECE0 /* Candlestick.swift */,
 				F49E3A80204F785D006C5729 /* Keychain.swift */,
 				F43F5E21204A3E2C000875C2 /* SquaredButton.swift */,
 				F4CD31CE20478F3900F2CDA3 /* Storage.swift */,
+				F461ED7F20533C4900519301 /* TextClick.swift */,
 				F4FF613C2047255800E61462 /* Theme.swift */,
 				F4FB325A204ACBF7009983EC /* Types.swift */,
 				F4FF613E204727F600E61462 /* Utils.swift */,
@@ -467,7 +470,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F493227E204B8413005B8EE4 /* ViewController.swift in Sources */,
-				F44A77B7204B61D400C7ECE0 /* Candlestick.swift in Sources */,
+				F461ED8020533C4900519301 /* TextClick.swift in Sources */,
 				F4CD31CF20478F3900F2CDA3 /* Storage.swift in Sources */,
 				F427AAB9204F4E7900C811A3 /* TimeLineEntity.swift in Sources */,
 				F427AAB1204F4E7900C811A3 /* KLineStockChartViewBase.swift in Sources */,
@@ -478,6 +481,7 @@
 				F427AAB6204F4E7900C811A3 /* StockChartBase.swift in Sources */,
 				F427AAB0204F4E7900C811A3 /* KLineStockChartView.swift in Sources */,
 				F427AAB5204F4E7900C811A3 /* JSUTradeModel.swift in Sources */,
+				F461ED872053474200519301 /* TableMyOffers.swift in Sources */,
 				F42AB86C20476E9B001AAD8A /* WebController.swift in Sources */,
 				F4FB325D204ADEFA009983EC /* TableOffers.swift in Sources */,
 				F43F5E29204A4DC2000875C2 /* TableOffersBids.swift in Sources */,

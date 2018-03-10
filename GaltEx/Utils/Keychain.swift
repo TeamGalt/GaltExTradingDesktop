@@ -61,8 +61,8 @@ public class Keychain {
         let status: OSStatus = SecItemDelete(query as CFDictionary)
         //print(status)
         
-        let errorMessage = SecCopyErrorMessageString(status, nil)
-        print(errorMessage ?? "Error ?")
+        //let errorMessage = SecCopyErrorMessageString(status, nil)
+        //print(errorMessage ?? "Error ?")
         
         return status == noErr
     }

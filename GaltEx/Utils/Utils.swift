@@ -9,6 +9,7 @@
 import Cocoa
 import Foundation
 
+
 extension NSColor {
     convenience init(hex: Int) {
         var opacity : CGFloat = 1.0
