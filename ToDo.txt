@@ -1,6 +1,5 @@
 TODO:
 
-- Upload to github TeamGalt/GaltexDesk
 - Chart - cache results
 - Dim decs in tables
 
@@ -39,3 +38,4 @@ x Appicon gold on black
 VERSION 2.0:
 
 - Streaming
+- Crypto, Wall St, Galt St

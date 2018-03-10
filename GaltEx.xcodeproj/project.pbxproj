@@ -146,6 +146,7 @@
 		F44A77BD204B62C300C7ECE0 /* TableChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableChart.swift; sourceTree = "<group>"; };
 		F461ED7F20533C4900519301 /* TextClick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextClick.swift; sourceTree = "<group>"; };
 		F461ED862053474200519301 /* TableMyOffers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableMyOffers.swift; sourceTree = "<group>"; };
+		F47E74B120540E05009195CD /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; wrapsLines = 1; };
 		F493227D204B8413005B8EE4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F49E3A80204F785D006C5729 /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
 		F4CBA38C2050607E00001200 /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -257,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				F4FB3252204ABF7D009983EC /* ToDo.txt */,
+				F47E74B120540E05009195CD /* Readme.md */,
 				F4FF611B20471A2300E61462 /* GaltEx */,
 				F4FF612D20471A2400E61462 /* GaltExTests */,
 				F40AD3A320478CF900655CD6 /* Frameworks */,
